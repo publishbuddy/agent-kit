@@ -33,7 +33,7 @@ claude plugin install publishbuddy@publishbuddy
 
 Or, inside a session: `/plugin install publishbuddy --marketplace publishbuddy/agent-kit`. Then run `/mcp`, pick the PublishBuddy server and sign in.
 
-- Status: install tested on 26 Nov 2026 with Claude Code 2.1.330, from a local copy of this repository.
+- Status: install tested from GitHub on 26 Nov 2026 with Claude Code 2.1.330. Sign-in through the plugin isn't tested yet.
 - Vendor page: https://code.claude.com/docs/en/plugins/publish
 
 ### Claude and Claude Cowork
