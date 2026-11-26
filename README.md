@@ -197,4 +197,6 @@ Email hello@publishbuddy.com. The docs are at https://docs.publishbuddy.com/mcp-
 
 ## License
 
-To be confirmed before this repository goes public. See the LICENSE file.
+MIT. See the [LICENSE](LICENSE) file.
+
+The PublishBuddy name and logo, including the icon in the assets folder, aren't covered by that license.

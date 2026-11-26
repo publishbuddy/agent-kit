@@ -8,6 +8,7 @@
     "email": "hello@publishbuddy.com"
   },
   "homepage": "https://publishbuddy.com",
+  "license": "MIT",
   "logo": "assets/icon.png",
   "keywords": [
     "social media",
