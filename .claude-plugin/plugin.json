@@ -9,6 +9,7 @@
     "url": "https://publishbuddy.com"
   },
   "homepage": "https://publishbuddy.com",
+  "repository": "https://github.com/publishbuddy/agent-kit",
   "license": "MIT",
   "keywords": [
     "social media",

@@ -4,7 +4,7 @@ Connect your AI agent to [PublishBuddy](https://publishbuddy.com), a social medi
 
 Your agent reads your accounts and your brand kit, and looks at how your posts are doing. It drafts posts and checks them against each network's rules. You approve, then it schedules them. Nothing is published without your OK.
 
-> **Status: not public yet.** Each install line below works once this repository is public. `OWNER/REPO` stands for this repository's address on GitHub.
+> **Status: not public yet.** Each install line below works once this repository is public at `github.com/publishbuddy/agent-kit`.
 
 ## What's in here
 
@@ -27,18 +27,18 @@ https://api.publishbuddy.com/mcp
 ### Claude Code
 
 ```bash
-claude plugin marketplace add OWNER/REPO
+claude plugin marketplace add publishbuddy/agent-kit
 claude plugin install publishbuddy@publishbuddy
 ```
 
-Or, inside a session: `/plugin install publishbuddy --marketplace OWNER/REPO`. Then run `/mcp`, pick the PublishBuddy server and sign in.
+Or, inside a session: `/plugin install publishbuddy --marketplace publishbuddy/agent-kit`. Then run `/mcp`, pick the PublishBuddy server and sign in.
 
 - Status: works once this repository is public.
 - Vendor page: https://code.claude.com/docs/en/plugins/publish
 
 ### Claude and Claude Cowork
 
-Open **Customize > Plugins**, choose **Add > Add marketplace** and enter `OWNER/REPO`. Add the PublishBuddy plugin, then open its **Connectors** tab and connect.
+Open **Customize > Plugins**, choose **Add > Add marketplace** and enter `publishbuddy/agent-kit`. Add the PublishBuddy plugin, then open its **Connectors** tab and connect.
 
 - Status: works once this repository is public.
 - Vendor page: https://claude.com/docs/plugins/overview
@@ -69,7 +69,7 @@ Grok Build reads Claude Code marketplaces and plugins as they are. Add this repo
 ### ChatGPT desktop app and Codex
 
 ```bash
-codex plugin marketplace add OWNER/REPO
+codex plugin marketplace add publishbuddy/agent-kit
 ```
 
 Restart the ChatGPT desktop app, open the Plugins Directory, choose the `publishbuddy` marketplace and install the plugin.
@@ -79,7 +79,7 @@ Restart the ChatGPT desktop app, open the Plugins Directory, choose the `publish
 
 ### Perplexity Computer
 
-Open **Plugins**, choose **Add custom > Import plugin from GitHub** and paste `https://github.com/OWNER/REPO`. Then connect PublishBuddy on the plugin's page.
+Open **Plugins**, choose **Add custom > Import plugin from GitHub** and paste `https://github.com/publishbuddy/agent-kit`. Then connect PublishBuddy on the plugin's page.
 
 - Status: works once this repository is public.
 - Vendor page: https://www.perplexity.ai/help-center/en/articles/2026100802-create-or-upload-a-custom-plugin
@@ -87,7 +87,7 @@ Open **Plugins**, choose **Add custom > Import plugin from GitHub** and paste `h
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/OWNER/REPO
+gemini extensions install https://github.com/publishbuddy/agent-kit
 ```
 
 Then run `/mcp auth publishbuddy` in Gemini CLI to sign in.
@@ -98,7 +98,7 @@ Then run `/mcp auth publishbuddy` in Gemini CLI to sign in.
 ### Kimi Code CLI
 
 ```text
-/plugins install https://github.com/OWNER/REPO
+/plugins install https://github.com/publishbuddy/agent-kit
 /reload
 ```
 
@@ -123,7 +123,7 @@ NanoClaw keeps credentials in its own vault. It asks for a PublishBuddy API key 
 ### Only the skill
 
 ```bash
-npx skills add OWNER/REPO
+npx skills add publishbuddy/agent-kit
 ```
 
 This adds the skill to the agents on your machine. The agent still needs the MCP server, which the next section covers.
