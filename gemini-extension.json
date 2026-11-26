@@ -1,0 +1,11 @@
+{
+  "name": "publishbuddy",
+  "version": "1.0.0",
+  "description": "Connect your AI agent to PublishBuddy, a social media management tool. The agent drafts posts in your brand's voice and checks them against each network's rules. It can also tell you how your posts are doing. You approve, then it schedules. Nothing is published without your OK.",
+  "mcpServers": {
+    "publishbuddy": {
+      "url": "https://api.publishbuddy.com/mcp",
+      "type": "http"
+    }
+  }
+}

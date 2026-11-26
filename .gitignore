@@ -1,0 +1,8 @@
+# System files. Plugin directories refuse a plugin that contains them.
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# Schemas downloaded for the checks in README.md
+*.schema.json

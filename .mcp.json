@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "publishbuddy": {
+      "type": "http",
+      "url": "https://api.publishbuddy.com/mcp"
+    }
+  }
+}

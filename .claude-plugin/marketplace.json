@@ -1,0 +1,17 @@
+{
+  "name": "publishbuddy",
+  "description": "PublishBuddy for AI agents. One plugin connects an agent to your PublishBuddy workspace and teaches it to draft and schedule posts for your approval.",
+  "owner": {
+    "name": "PublishBuddy",
+    "email": "hello@publishbuddy.com",
+    "url": "https://publishbuddy.com"
+  },
+  "plugins": [
+    {
+      "name": "publishbuddy",
+      "source": "./",
+      "description": "Draft and schedule social posts from your AI agent. You approve every post.",
+      "category": "Productivity"
+    }
+  ]
+}

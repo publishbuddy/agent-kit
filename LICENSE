@@ -1,0 +1,15 @@
+LICENSE PENDING
+
+This repository has no license yet.
+
+The MIT License is proposed. The decision is with PublishBuddy's founder.
+Until this file holds a license, do not publish this repository, and treat
+its contents as all rights reserved.
+
+When the decision is made:
+
+1. Replace this file with the chosen license text.
+2. Add the matching "license" field to plugin.json,
+   .claude-plugin/plugin.json, .cursor-plugin/plugin.json and
+   kimi.plugin.json.
+3. Update the "License" section of README.md.
